@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 20,
+          "marginTop": 40,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": undefined,
+          }
+        }
+        style={
+          Array [
+            Object {
+              "borderColor": "#ccc",
+              "borderRadius": 35,
+              "borderWidth": 2,
+              "height": 70,
+              "width": 70,
+            },
+            Object {
+              "borderRadius": 100,
+              "height": 200,
+              "width": 200,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+        }
+      }
+    >
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "title": "Name",
+              "value": undefined,
+            },
+            Object {
+              "title": "Occupation",
+              "value": undefined,
+            },
+            Object {
+              "title": "Status",
+              "value": undefined,
+            },
+            Object {
+              "title": "Nickname",
+              "value": undefined,
+            },
+            Object {
+              "title": "Season appearance",
+              "value": undefined,
+            },
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        viewabilityConfigCallbackPairs={Array []}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "marginRight": 20,
+                    "minWidth": 100,
+                    "width": "30%",
+                  }
+                }
+              >
+                Name
+                :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "width": "60%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "marginRight": 20,
+                    "minWidth": 100,
+                    "width": "30%",
+                  }
+                }
+              >
+                Occupation
+                :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "width": "60%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "marginRight": 20,
+                    "minWidth": 100,
+                    "width": "30%",
+                  }
+                }
+              >
+                Status
+                :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "width": "60%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "marginRight": 20,
+                    "minWidth": 100,
+                    "width": "30%",
+                  }
+                }
+              >
+                Nickname
+                :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "width": "60%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "marginRight": 20,
+                    "minWidth": 100,
+                    "width": "30%",
+                  }
+                }
+              >
+                Season appearance
+                :
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "width": "60%",
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;

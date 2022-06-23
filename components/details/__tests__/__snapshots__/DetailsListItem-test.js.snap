@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginTop": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "marginRight": 20,
+        "minWidth": 100,
+        "width": "30%",
+      }
+    }
+  >
+    :
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "width": "60%",
+      }
+    }
+  />
+</View>
+`;
