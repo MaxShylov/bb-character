@@ -22,7 +22,6 @@ export const useCharacters = () => {
 
     getCharacters(20, isNewName ? 0 : offset, { name })
       .then(data => {
-        console.log('data', data);
         setData(prev => isNewName ? data : [...prev, ...data]);
         setSuccess(true)
         setOffset(offset + 20)
